@@ -7,8 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Documentation Bemmer",
-  themes: ['@docusaurus/theme-search-algolia'],
-  tagline: "Dinosaurs are cool",
+
+  tagline: "Des questions ?",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -18,7 +18,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "treegram", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  projectName: "Documentation Beemer", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -51,7 +51,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Documentation Bemmer",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -61,7 +61,7 @@ const config = {
             type: "doc",
             docId: "Documentation de Beemer",
             position: "left",
-            label: "Tutorial",
+            label: "Doc",
           },
         ],
       },
@@ -78,19 +78,19 @@ const config = {
             ],
           },
           {
-            title: "Community",
+            title: "Nous contacter",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Contact",
+                href: "https://www.treegram.fr/contact/",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "contact@treegram.fr",
+                href: "mailto:contact@treegram.fr",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/company/treegram/",
               },
             ],
           },
@@ -98,45 +98,23 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Treegram",
+                href: "https://www.treegram.fr/",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Youtube",
+                href: "https://www.youtube.com/channel/UCEzNukkwh0Y0TR1NOIPym4w",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Treegram, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      algolia: {
-        // L'ID de l'application fourni par Algolia
-        appId: 'YOUR_APP_ID',
-  
-        // Clé d'API publique : il est possible de la committer en toute sécurité
-        apiKey: 'YOUR_SEARCH_API_KEY',
-  
-        indexName: 'YOUR_INDEX_NAME',
-  
-        // Facultatif : voir la section doc ci-dessous
-        contextualSearch: true,
-  
-        // Facultatif : Spécifiez les domaines où la navigation doit se faire par window.location au lieu de history.push. Utile lorsque notre configuration Algolia explore plusieurs sites de documentation et que nous voulons naviguer vers eux avec window.location.href.
-        externalUrlRegex: 'external\\.com|domain\\.com',
-  
-        // Facultatif : paramètres de recherche de Algolia
-        searchParameters: {},
-  
-        // Facultatif : chemin pour la page de recherche qui est activée par défaut (`false` pour le désactiver)
-        searchPagePath: 'false',
-  
-        //... autres paramètres d'Algolia
-      },
+      
     }),
 };
 
