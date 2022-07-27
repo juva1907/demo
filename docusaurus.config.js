@@ -9,7 +9,7 @@ const config = {
   title: "Documentation Bemmer",
 
   tagline: "Des questions ?",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://lucky-meerkat-0ff67f.netlify.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -17,8 +17,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "treegram", // Usually your GitHub org/user name.
-  projectName: "Documentation Beemer", // Usually your repo name.
+  organizationName: "https://github.com/juva1907", // Usually your GitHub org/user name.
+  projectName: "demo", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,8 +37,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+       
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
